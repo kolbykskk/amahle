@@ -1,0 +1,10 @@
+{
+  "name": "amahle",
+  "private": true,
+  "dependencies": {
+    "jquery-mobile": "^1.4.1"
+  },
+  "devDependencies": {
+    "jquery-mobile": "^1.4.1"
+  }
+}

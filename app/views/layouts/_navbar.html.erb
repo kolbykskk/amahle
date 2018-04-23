@@ -1,0 +1,26 @@
+<div data-role="navbar">
+  <ul>
+    <li>
+      <label for="select-choice-1" class="ui-hidden-accessible">Shipping:</label>
+        <select name="select-choice-1" id="select-choice-1" data-mini="true" data-inline="true" style="color: black;">
+            <option value="standard">Standard: 7 day</option>
+            <option value="rush">Rush: 3 days</option>
+            <option value="express">Express: next day</option>
+            <option value="overnight">Overnight</option>
+        </select>
+    </li>
+    <li>
+      <%= link_to 'Root', root_path, data: {icon: 'star'} %>
+    </li>
+    <li>
+      <a href="#mypanel" data-icon="gear">Setup</a>
+    </li>
+  </ul>
+</div>
+
+<div data-role="panel" id="mypanel" data-position="right" data-display="overlay" data-theme="b" class="ui-panel ui-panel-position-right ui-panel-display-overlay ui-body-b ui-panel-animate">
+  <h3>Right Panel: Overlay</h3>
+  <p>This panel is positioned on the right with the overlay display mode. The panel markup is <em>after</em> the header, content and footer in the source order.</p>
+  <p>To close, click off the panel, swipe left or right, hit the Esc key, or use the button below:</p>
+  <a href="#demo-links" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">Close panel</a>
+</div>
